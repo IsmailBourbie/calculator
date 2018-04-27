@@ -1,4 +1,4 @@
-# tic-tac-toe
+# Calculator
 Simple *Calculator* with Js Css Html and without Artificial Intelligence 
 
 ## Getting Started 
