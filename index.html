@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body class="all">
+        <div class="layout">
+            <div class="display">
+            <div class="rowsDisplay" id="input">
+
+            </div>
+            <div class="rowsDisplay" id="output"></div>
+            </div>
+            <div class="rowsButton">
+                <button class="button" id="clear" onclick="supp()">C</button>
+                <button class="button" id="del" onclick="delet()">&larr;</button>
+                <button class="button" id="racine" onclick="negative()" style="font-size: 33px;">&#8723;</button>
+                <button class="button" id="devision" onclick="dev()">&divide;</button>
+            </div>
+            <div class="rowsButton">
+                <button class="button" id="button7" onclick="button(7)">7</button>
+                <button class="button" id="button8" onclick="button(8)">8</button>
+                <button class="button" id="button9" onclick="button(9)">9</button>
+                <button class="button" id="multip" onclick="mul()">x</button>
+            </div>
+            <div class="rowsButton">
+                <button class="button" id="button4" onclick="button(4)">4</button>
+                <button class="button" id="button5" onclick="button(5)">5</button>
+                <button class="button" id="button6" onclick="button(6)">6</button>
+                <button class="button" id="minus" onclick="min()">-</button>
+            </div>
+            <div class="rowsButton">
+                <button class="button" id="button1" onclick="button(1)">1</button>
+                <button class="button" id="button2" onclick="button(2)">2</button>
+                <button class="button" id="button3" onclick="button(3)">3</button>
+                <button class="button" id="summe" onclick="sum()">+</button>
+            </div>
+            <div class="rowsButton">
+                <button class="button" id="button0" style="width: 195px;" onclick="button(0)">0</button>
+                <button class="button" id="dote" onclick="dote()">.</button>
+                <button class="button" id="equale" onclick="equale()" style="background-color: rgb(255, 46, 46);">=</button>
+            </div>
+        </div>     
+        <script src="main.js"></script>
+    </body>
+</html>
